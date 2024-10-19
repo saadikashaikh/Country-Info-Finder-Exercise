@@ -1,0 +1,57 @@
+body {
+    font-family: "Quicksand", sans-serif;;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0f0c30;
+    color: white;
+}
+
+.countryContainer {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #3a384a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#countryInput{
+    width: calc(100% - 16px);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid rgb(228, 225, 233);
+    margin: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #323c92; /* Subtle color change on focus */
+    box-shadow: 0px 0px 5px rgba(82, 97, 233, 0.5); /* Light blue glow */
+}
+  
+
+button {
+    background-color: #464182;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #0f0c30;
+}
+
+#countryDetails {
+    margin-top: 20px;
+    
+}
